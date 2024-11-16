@@ -1,12 +1,12 @@
 # Magnetic Field Stability Analysis
 
-A Python package for analyzing the stability of solar magnetic fields, with a focus on detecting Polarity Inversion Lines (PILs) and calculating decay indices for assessing potential solar eruptions.
+A Python package for analyzing the stability of solar magnetic fields, with a focus on detecting Polarity Inversion Lines (PILs) and calculating decay index and critical height for assessing potential solar eruptions.
 
 ## Overview
 
 This package provides tools to:
 - Detect and analyze Polarity Inversion Lines (PILs) in magnetogram data
-- Calculate decay indices and critical heights for torus instability
+- Calculate decay index and critical height for torus instability
 - Analyze magnetic field stability around solar flares
 - Visualize magnetic field configurations and stability metrics
 
@@ -68,19 +68,6 @@ For theoretical background, see:
 - Kliem & Török (2006) - Torus instability theory
 - Gupta et al. (2024) - Stability analysis methodology
 
-
-## License
-
-This project is licensed under the GNU General Public License v3 (GPL-3.0) - see the LICENSE file for details.
-
-This means that any project using this code must also be released under the GPL-3.0 license and make its source code available. This ensures that all derivative works remain free and open source.
-
-The key terms of GPL-3.0 include:
-- You can freely use, modify, and distribute this software
-- Any modifications must also be licensed under GPL-3.0
-- Source code must be made available when distributing the software
-- Changes made to the code must be documented
-
 When using this software for scientific publications, please cite:
 
 ```bibtex
@@ -102,4 +89,14 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
+## License
 
+This project is licensed under the GNU General Public License v3 (GPL-3.0) - see the LICENSE file for details.
+
+This means that any project using this code must also be released under the GPL-3.0 license and make its source code available. This ensures that all derivative works remain free and open source.
+
+The key terms of GPL-3.0 include:
+- You can freely use, modify, and distribute this software
+- Any modifications must also be licensed under GPL-3.0
+- Source code must be made available when distributing the software
+- Changes made to the code must be documented
