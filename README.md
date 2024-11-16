@@ -53,22 +53,20 @@ plot_results(results)
 
 This package implements methods for analyzing magnetic field stability in solar active regions, particularly focused on:
 
-1. Detecting Polarity Inversion Lines (PILs) using the method of Cai et al. (2020)
+1. Detecting Polarity Inversion Lines (PILs) using the method of [Cai et al. (2020)](https://www.researchgate.net/profile/Berkay-Aydin/publication/350201132_A_Framework_for_Detecting_Polarity_Inversion_Lines_from_Longitudinal_Magnetograms/links/62f2aad64532247693906559/A-Framework-for-Detecting-Polarity-Inversion-Lines-from-Longitudinal-Magnetograms.pdf)
 2. Calculating decay indices and critical heights for torus instability
 3. Analyzing magnetic field configurations before solar flares
 
 
-Publication: 
-https://arxiv.org/pdf/2402.12254
+Publication: \
+https://arxiv.org/pdf/2402.12254 \
 https://ui.adsabs.harvard.edu/abs/2024A%26A...686A.115G/abstract
 
 Note: Not all of the methods that were implemented in the paper are available in this package. Please contact the authors for further information.
 
 For theoretical background, see:
-- Kliem & Török (2006) - Torus instability theory
-- Gupta et al. (2024) - Stability analysis methodology
-
-Please find all the references in our paper - the link above.
+- [Kliem & Török (2006)](https://arxiv.org/pdf/physics/0605217) - Torus instability theory
+- [Gupta et al. (2024)](https://arxiv.org/pdf/2402.12254) - Stability analysis methodology
 
 When using this software for scientific publications, please cite:
 
