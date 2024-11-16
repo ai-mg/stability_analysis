@@ -15,7 +15,7 @@ This package provides tools to:
 Install from source:
 
 ```bash
-git clone https://github.com/username/stability-analysis
+git clone https://github.com/ai-mg/stability-analysis
 cd stability-analysis
 pip install -e .
 ```
@@ -67,6 +67,8 @@ Note: Not all of the methods that were implemented in the paper are available in
 For theoretical background, see:
 - Kliem & Török (2006) - Torus instability theory
 - Gupta et al. (2024) - Stability analysis methodology
+
+Please find all the references in our paper - the link above.
 
 When using this software for scientific publications, please cite:
 
