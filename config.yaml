@@ -1,0 +1,16 @@
+# Configuration for magnetic field stability analysis
+
+# Grid parameters
+grid_spacing: 0.72  # Mm
+
+# Analysis parameters
+critical_decay_index: 1.5
+height_uncertainty: 0.1
+preflare_window_hours: 5
+
+# PIL detection parameters
+pil_detection:
+  pos_threshold: 100    # Gauss
+  neg_threshold: -100   # Gauss
+  gaussian_sigma: 3
+  dilation_size: 6
